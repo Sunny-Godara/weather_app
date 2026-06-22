@@ -26,7 +26,7 @@ def fetch_city_name(city_name):
     temperature = weather_data['current']['temperature_2m']
     windspeed = weather_data['current']['windspeed_10m']
     relative_humidity = weather_data['current']['relative_humidity_2m']
-        return f'''<h3>Here are your desired outputs : </h3>
+    return f'''<h3>Here are your desired outputs : </h3>
         <br>
         {temperature} == Temperature <br>
         {windspeed} == Windspeed<br>
